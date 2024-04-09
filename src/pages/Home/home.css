@@ -1,0 +1,62 @@
+.home-main{
+    background-color: whitesmoke;
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0 10px 20px 10px;
+    border: 1px solid rgb(110, 110, 110,0.4);
+}
+
+.home-main h3{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.home-main p {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.signup-btn{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.signin-btn{
+    width: 100%;
+}
+
+.main div{
+    width: 100%;
+}
+
+.home-btn-signup {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 0 0;
+    border: none;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(89, 49, 235);
+    color: white;
+}
+.home-btn-signin {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 0 0;
+    border: none;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(174, 152, 253);
+}

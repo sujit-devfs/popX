@@ -1,0 +1,64 @@
+.signup-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 25vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    border: 1px solid rgb(110, 110, 110,0.4);
+}
+.signup-main form{
+    width: 100%;
+}
+
+.signup-main fieldset{
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.signup-main legend{
+    color: rgb(89, 49, 235);
+}
+
+.signup-main input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 15px;
+    padding: 10px 10px 20px 10px;
+}
+
+.signup-main input:focus{
+    outline: none;
+}
+
+.required{
+    color: red;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+}
+
+.radio input{
+    width: 20px;
+    padding: 10px;
+}
+.radio label{
+    padding: 10px;
+}
+
+.signup-main button {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 0 0;
+    border: none;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(89, 49, 235);
+    color: white;
+}
