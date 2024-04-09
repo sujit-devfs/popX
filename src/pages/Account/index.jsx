@@ -10,10 +10,10 @@ const Account = () => {
           <div className="img-box">
             <img
               id="profile"
-              src="../../../src/assets/profile.png"
+              src="/assets/profile.png"
               alt="profile-pic"
             />
-            <img id="camera" src="../../../src/assets/camera.png" alt="icon" />
+            <img id="camera" src="/assets/camera.png" alt="icon" />
           </div>
           <div className="contents">
             <p className="name">Marry Doe</p>
